@@ -2,10 +2,10 @@ package br.com.fiap.monitoramento_sensores.model;
 
 public class SensorData {
 
-    private double temperature;
+    private Double temperature;
 
     // Construtor
-    public SensorData(double temperature) {
+    public SensorData(Double temperature) {
         this.temperature = temperature;
     }
 
@@ -14,7 +14,7 @@ public class SensorData {
         return temperature;
     }
 
-    public void setTemperature(double temperature) {
+    public void setTemperature(Double temperature) {
         this.temperature = temperature;
     }
 }
